@@ -10,22 +10,37 @@
 
 
 .btn {
-    /* TODO */
+    @include  transition-property (padding);
+    @include transition-delay (0ms);
+    @include transition-duration (300ms);
+    @include transition-timing-function (linear);
 
     &.ease-in {
-        /* TODO */
+        @include transition-property (padding);
+        @include transition-delay (50ms);
+        @include transition-duration (400ms);
+        @include transition-timing-function (linear);
     }
 
     &.ease-out {
-        /* TODO */
+        @include  transition-property (padding);
+        @include transition-delay (100ms);
+        @include transition-duration (600ms);
+        @include transition-timing-function (linear);
     }
 
     &.ease-in-out {
-        /* TODO */
+        @include  transition-property (padding);
+        @include transition-delay (0ms);
+        @include transition-duration (400ms);
+        @include transition-timing-function (linear);
     }
 
     &.green {
-        /* TODO */
+        @include  transition-property (padding);
+        @include transition-delay (0ms);
+        @include transition-duration (color);
+        @include transition-timing-function (linear);
     }
 
     &.animation {
